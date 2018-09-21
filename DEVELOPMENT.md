@@ -23,5 +23,29 @@
 8. Add initial notes to README.md
 
 
-Create a new gihub repository and connect it to this git
-Git first commit and push up to github
+9. Create a new gihub repository and connect it to this git.  
+    Git first commit and push up to github
+    ~~~~
+    git add .  
+    git commit -m "first commit"  
+    git remote add origin https://github.com/abonello/flask_SQLAlchemy.git  
+    git push -u origin master  
+    ~~~~
+10. Start the virtual environment
+    ~~~~
+    source venv/bin/activate
+    ~~~~
+11. Install Flask
+    ~~~~
+    pip install Flask
+    ~~~~
+12. Install Flask-SQLAlchemy
+    ~~~~
+    pip install Flask-SQLAlchemy
+    ~~~~
+13. Create requirements.txt
+    ~~~~
+    pip freeze --local > requirements.txt
+    ~~~~
+
+
